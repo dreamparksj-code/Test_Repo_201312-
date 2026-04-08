@@ -11,9 +11,9 @@ int main() {
 
     printf("1부터 10까지의 합: %d\n", sum);
     if (sum % 2 == 0) { 
-        printf('결과는 짝수입니다.\n');
+        printf("결과는 짝수입니다".\n);//큰따옴표로 전환 
     } else {
-        printf("결과는 홀수입니다.\n")
+        printf("결과는 홀수입니다.\n");//세미클론 없움 
     }
 
     return 0;
